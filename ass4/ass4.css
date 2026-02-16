@@ -1,0 +1,30 @@
+.myimg{
+    margin-top:40px;
+    width:200px;
+    height:200px;
+    float:left;  
+}
+body
+{
+    background-color:gainsboro;
+}
+p{
+    margin-top:60px;
+    font-size: larger;
+    font-style:initial;
+    margin-bottom :50px;
+    
+}
+h2{
+    clear: both;
+    margin-top:150px;
+}
+a{
+    color: red;
+}
+h3{
+    margin-top: 10px;
+}
+hr{
+    color:brown;
+}

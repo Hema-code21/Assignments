@@ -1,12 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .img1{
-    float: left;
-    
-   
+    float:left;
+    width:200px;
+    height:auto;
 }
 .img2{
-    float:right;
+     float:right;
+     height:auto;
+     float:right;
+     ;
 }

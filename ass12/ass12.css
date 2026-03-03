@@ -1,0 +1,262 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= HEADER ================= */
+
+.header1 {
+    height: 50vh;
+    background: url("./img1.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.header1 .text h1 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.header1 button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ================= OUTDOOR SECTION ================= */
+
+.outdoor {
+    background: #f2f2f2;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outdoor-text {
+    width: 45%;
+}
+
+.outdoor-text h2 {
+    font-size: 32px;
+    color: #163c6b;
+    margin-bottom: 20px;
+}
+
+.outdoor-text p {
+    line-height: 1.7;
+    color: #555;
+}
+
+.outdoor-image {
+    width: 50%;
+}
+
+.outdoor-image img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-buttons {
+    margin-top: 15px;
+}
+
+.slider-buttons button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #163c6b;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* ================= TOURISM SECTION ================= */
+
+.tourism {
+    padding: 80px 10%;
+}
+
+.tourism h2 {
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 40px;
+}
+
+.tourism-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background:white;
+   
+    padding: 30px;
+    text-align: center;
+}
+.card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-weight: bold;
+    color: orange;
+
+}
+
+nav {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 28px;
+    color: blue;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-weight: bold;
+    color:blue;
+}
+
+nav ul li:first-child {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+}
+
+
+.outdoor {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10%;
+    background: white;
+}
+
+.outdoor-text {
+    width: 40%;
+}
+
+.outdoor-text h2 {
+    color: blue;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.outdoor-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: grey;
+}
+
+.outdoor-image {
+    width: 50%;
+    position: relative;
+}
+
+.outdoor-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.slider-buttons {
+    position: absolute;
+    bottom: -25px;
+    left: 20px;
+}
+
+.slider-buttons span {
+    background: white;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+
+.tourism {
+    padding: 60px 10%;
+    text-align: left;
+}
+
+.tourism h2 {
+    color: #0b3d91;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.tourism-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: orange;
+    font-weight: bold;
+}
+
+.card:hover {
+    background: #e6e6e6;
+    transform: translateY(-5px);
+}
+
+
+
+.suits {
+    padding: 60px 10%;
+    background: white;
+    text-align: center;
+}
+
+.suits h2 {
+    color: #0b3d91;
+    margin-bottom: 20px;
+}
+
+.tabs span {
+    margin: 0 15px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    border-bottom: 3px solid orange;
+    color: orange;
+}

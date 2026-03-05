@@ -1,0 +1,18 @@
+a=10;
+b=14;
+result= a+b;
+console.log("sum:",result);
+result= a-b;
+console.log("Difference:",result);
+result= a*b;
+console.log("product:",result);
+result= a**b;
+console.log("power:",result);
+result= a/b;
+console.log("Division:",result);
+result= a%b;
+console.log("Modulus:",result);
+result= a++;
+console.log("Post Increment:",result);
+result= a--;
+console.log("Post Decrement:",result);
